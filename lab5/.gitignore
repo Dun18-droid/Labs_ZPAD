@@ -19,7 +19,5 @@ __pycache__/
 *.json
 vhi_data/
 
-*.py
-
 # стороння директорія
 restaurant_data/
