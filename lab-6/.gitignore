@@ -1,0 +1,22 @@
+# 1. Папка сборки (CMake генерит тут сотни мегабайт кэша и сам бинарник)
+build/
+
+# 2. Скомпилированные объекты и исполняемые файлы (если случайно скомпилишь вне папки build)
+*.o
+*.out
+*.a
+*.so
+*.exe
+Lab6
+
+# 3. Настройки редакторов кода и IDE (VS Code, CLion, Visual Studio)
+.vscode/
+.idea/
+cmake-build-debug/
+cmake-build-release/
+*.suo
+*.user
+
+# 4. Системные файлы ОС (Мак/Винда/Линукс)
+.DS_Store
+Thumbs.db
