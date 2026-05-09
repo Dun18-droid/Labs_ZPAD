@@ -14,13 +14,23 @@ void KeyProcessor::processKey(int key) {
             currentMode = Mode::NORMAL;
             break;
         case '2':
-            currentMode = Mode::INVERT; // Режим інверсії кольорів[cite: 1]
+            currentMode = Mode::INVERT; // Режим інверсії кольорів 
             break;
         case '3':
-            currentMode = Mode::BLUR; // Режим Gaussian blur[cite: 1]
+            currentMode = Mode::BLUR; // Режим Gaussian blur 
             break;
         case '4':
-            currentMode = Mode::CANNY; // Режим Canny фільтру[cite: 1]
+            currentMode = Mode::CANNY; // Режим Canny фільтру 
+            break;
+        //НОВІ РЕЖИМИ
+        case '5':
+            currentMode = Mode::SOBEL; // Фільтр Собеля 
+            break;
+        case '6':
+            currentMode = Mode::BINARIZE; // Бінаризація 
+            break;
+        case '7':
+            currentMode = Mode::GLITCH; // Glitch effect 
             break;
     }
 }

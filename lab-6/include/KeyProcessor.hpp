@@ -4,7 +4,10 @@ enum class Mode {
     NORMAL,
     INVERT,
     BLUR,
-    CANNY
+    CANNY,
+    SOBEL,    // Додано: Фільтр Собеля
+    BINARIZE, // Додано: Бінаризація
+    GLITCH    // Додано: Glitch effect
 };
 
 class KeyProcessor {

@@ -9,6 +9,8 @@ build/
 *.exe
 Lab6
 
+
+!CMakeLists.txt
 # 3. Настройки редакторов кода и IDE (VS Code, CLion, Visual Studio)
 .vscode/
 .idea/
