@@ -36,7 +36,7 @@ int main() {
         display.show(processedFrame); 
 
         // Реагує на натискання клавіатури[cite: 1]
-        int key = cv::waitKey(30);
+        int key = cv::waitKey(30) & 0xFF;
         keyProcessor.processKey(key);
     }
 
